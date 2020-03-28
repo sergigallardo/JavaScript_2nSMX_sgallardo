@@ -5,3 +5,11 @@ Hola Sergi,
 
 torna a pujar el projecte sense comprimir.
 
+========
+20200328
+========
+Hola,
+
+- copia el contingut de la web a l'arrel del projecte
+- esborra els arxius i directoris sobrants
+- crea el javascript en un arxiu independent
