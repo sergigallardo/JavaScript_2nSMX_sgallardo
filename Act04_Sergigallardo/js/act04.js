@@ -59,22 +59,22 @@ var dos = 20;
 var tres = 30;
 var quatro = 40;
 
-if (primera==segona ) {
+if (uno==dos ) {
     document.write ("<br>El numero 10 es igual que 20</br>")}
     else {
     document.write ("<br>El numero 10 no es igual que 20</br>")}
 
-if (primera==tercera ) {
+if (uno==tres ) {
     document.write ("El numero 10 es igual que 30")}
     else {
     document.write ("El numero 10 no es igual que 30")}
 
-if (primera==quarta ) {
+if (uno==quatro ) {
     document.write ("<br>El numero 10 es igual que 40</br>")}
     else {
     document.write ("<br>El numero 10 no es igual que 40</br>")}
 
-if (segona==primera ) {
+if (dos==uno ) {
     document.write ("El numero 20 es igual que 10")}
     else {
     document.write ("El numero 20 no es igual que 10")}
