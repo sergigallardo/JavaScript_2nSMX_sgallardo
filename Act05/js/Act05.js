@@ -1,6 +1,6 @@
-
 //TASCA 1
 //Imprimeix la taula de multiplicar del 9, utilitzant un bucle.
+document.write("<h1>Tasca 1</h1>");
 var y = 9;
 
 for (var x = 0; x <= 10; x++) {
@@ -10,7 +10,7 @@ for (var x = 0; x <= 10; x++) {
 
 //TASCA 2
 //Imprimeix la taula de multiplicar del 5 a la inversa, utilitzant un bucle.
-
+document.write("<h1>Tasca 2</h1>");
 var s = 5;
 var r1= 1;
 
@@ -21,27 +21,28 @@ for (mult = 10; r1 <= 11; mult--) {
 		document.write ("</br>");
 		}
 }
-
 //TASCA 3
 //Imprimeix totes les taules de multiplicar, utilitzant dos o més bucles.
-function generarTablas()
-{
- var numTablas=document.getElementById('genera').value;
- document.write('<table>');
- for (var i=1; i<=12; i++)
- {
-   document.write('<tr>');
-  for (var j=1; j<=numTablas; j++)
-  {
-   document.write('<td>');
-   document.write(j + " x " + i + " = "+i*j);
-   document.write('</td>');
-   document.write('<td>     </td>');
-  }
-   document.write('</tr>');
- }
-  document.write('</table>');
+document.write("<h1>Tasca 3</h1>");
+var bucle = 1;
+var cont = 0 ;
+var cont2 = 1;
+
+document.write("<table>");
+
+while(bucle <= 100){
+	if(cont == 0){
+		document.write("<tr>");
+
+	}
+	 cont++;
+	 document.write("<td>"+cont2+"x" +cont+"=" +cont * cont2+"</td>");
+
+	 bucle++;
+	 if(cont == 10){
+		 	document.write("</td>");
+			cont = 0;
+			cont2++;
+	 }
 }
- document.write('¿Fins a quina taula de multiplicar vols generar?');
- document.write('<input type="text" name="genera", id="genera" />');
- document.write('<input type="button"  value="Genera" onclick="generarTablas()"/>');
+document.write("</table>")
